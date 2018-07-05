@@ -445,9 +445,9 @@
     <link href="https://github.com/NickShenQWQ/2018/05/31/test/"/>
     <id>https://github.com/NickShenQWQ/2018/05/31/test/</id>
     <published>2018-05-31T02:21:04.109Z</published>
-    <updated>2018-05-31T05:33:10.130Z</updated>
+    <updated>2018-07-05T08:15:33.282Z</updated>
     
-    <content type="html"><![CDATA[<p>A test 测试</p><p>博客搭建基本完成,</p><p>2018.5.31参考:<br><a href="https://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">https://www.jianshu.com/p/189fd945f38f</a><br><a href="https://www.cnblogs.com/SkyMark/p/9093083.html" target="_blank" rel="noopener">https://www.cnblogs.com/SkyMark/p/9093083.html</a><br>模板的内的readme</p><p>发布使用git bash :<br>$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo</p><p>此文起开始我的第一篇，希望能坚持下去。</p>]]></content>
+    <content type="html"><![CDATA[<p>A test 测试</p><p>博客搭建基本完成,</p><p>2018.5.31参考:<br><a href="https://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">https://www.jianshu.com/p/189fd945f38f</a><br><a href="https://www.cnblogs.com/SkyMark/p/9093083.html" target="_blank" rel="noopener">https://www.cnblogs.com/SkyMark/p/9093083.html</a><br>模板的内的readme</p><p>发布使用git bash :<br>$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>此文起开始我的第一篇，希望能坚持下去。</p>]]></content>
     
     <summary type="html">
     
