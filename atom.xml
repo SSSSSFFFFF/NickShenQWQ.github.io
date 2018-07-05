@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/NickShenQWQ/"/>
-  <updated>2018-07-05T08:06:06.036Z</updated>
+  <updated>2018-07-05T08:29:32.944Z</updated>
   <id>https://github.com/NickShenQWQ/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://github.com/NickShenQWQ/2018/07/05/newtest%20-%20%E5%89%AF%E6%9C%AC/"/>
     <id>https://github.com/NickShenQWQ/2018/07/05/newtest - 副本/</id>
     <published>2018-07-05T08:05:58.548Z</published>
-    <updated>2018-07-05T08:06:06.036Z</updated>
+    <updated>2018-07-05T08:29:32.944Z</updated>
     
-    <content type="html"><![CDATA[<p>1.Github 添加 SSH Keys</p><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><p><img src="xxxx/5.png" alt="你想输入的替代文字">???</p>]]></content>
+    <content type="html"><![CDATA[<p>1.Github 添加 SSH Keys</p><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><p>/img/5.png</p>]]></content>
     
     <summary type="html">
     
