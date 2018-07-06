@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/NickShenQWQ/"/>
-  <updated>2018-07-06T09:55:17.305Z</updated>
+  <updated>2018-07-06T11:20:46.702Z</updated>
   <id>https://github.com/NickShenQWQ/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>10进制转化为2进制</title>
+    <link href="https://github.com/NickShenQWQ/2018/07/06/javascript/"/>
+    <id>https://github.com/NickShenQWQ/2018/07/06/javascript/</id>
+    <published>2018-07-06T11:20:16.772Z</published>
+    <updated>2018-07-06T11:20:46.702Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://ife.baidu.com/note/detail/id/1549" target="_blank" rel="noopener">居中详解</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;http://ife.baidu.com/note/detail/id/1549&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;居中详解&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="css" scheme="https://github.com/NickShenQWQ/categories/css/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>居中详解</title>
@@ -452,29 +476,6 @@
       
         &lt;p&gt;将Javascript从html分离，添加一个循环遍历点击打开链接的函数。&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;b
-      
-    
-    </summary>
-    
-      <category term="Javascript" scheme="https://github.com/NickShenQWQ/categories/Javascript/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>用DOM 点击链接后改变对应地方的图片及文字，解决禁用Javascript下打开新窗口的方法this.href</title>
-    <link href="https://github.com/NickShenQWQ/2018/05/31/DOM%20%E7%82%B9%E5%87%BB%E9%93%BE%E6%8E%A5%E5%90%8E%E6%94%B9%E5%8F%98%E5%AF%B9%E5%BA%94%E5%9C%B0%E6%96%B9%E7%9A%84%E5%9B%BE%E7%89%87%E5%8F%8A%E6%96%87%E5%AD%97/"/>
-    <id>https://github.com/NickShenQWQ/2018/05/31/DOM 点击链接后改变对应地方的图片及文字/</id>
-    <published>2018-05-31T05:52:34.426Z</published>
-    <updated>2018-05-31T07:25:46.489Z</updated>
-    
-    <content type="html"><![CDATA[<p> 正在看的 <a href="http://vdisk.weibo.com/s/DtMaH17QyhoV" target="_blank" rel="noopener">JavaScript + DOM 编程艺术</a>, 采用getElementsById(), getAttribute(), setAttribute() 方法和 nodeType属性完成<br> 同时完成一个小的新建固定窗口的链接<br> getElementsById()：获取此id元素对应的对象,<br> getElementsByTagName()：获取标签对应的对象，如li img等，<br> getAttribute(), 获取其中的一个属性，如title，href等<br> setAttribute()，与getAttribut()对应，把一个其他的属性设置为get的属性</p><h3 id="html："><a href="#html：" class="headerlink" title="html："></a>html：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">"en"</span>&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"UTF-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Snapshots&lt;/title&gt;</span><br><span class="line">    &lt;script  src=<span class="string">"open.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Snapshots&lt;/h1&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href=<span class="string">"images/1.jpg"</span> title=<span class="string">"1"</span> onclick=<span class="string">"changePic(this); return false;"</span>&gt;First&lt;/a&gt; &lt;/li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href=<span class="string">"images/6.jpg"</span> title=<span class="string">"2"</span> onclick=<span class="string">"changePic(this); return false;"</span>&gt;Second&lt;/a&gt; &lt;/li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href=<span class="string">"images/3.jpg"</span> title=<span class="string">"3"</span> onclick=<span class="string">"changePic(this); return false;"</span>&gt;Third&lt;/a&gt; &lt;/li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href=<span class="string">"images/4.jpg"</span> title=<span class="string">"4"</span> onclick=<span class="string">"changePic(this); return false;"</span>&gt;Fourth&lt;/a&gt; &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">    &lt;img src=<span class="string">"images/5.jpg"</span> alt=<span class="string">"Change this image"</span> height=<span class="string">"400px"</span> id=<span class="string">"image5"</span>&gt;</span><br><span class="line">    &lt;p id=<span class="string">"changedText"</span>&gt;The text will be changed.&lt;/p&gt;</span><br><span class="line">    &lt;a href=<span class="string">"javascript: openUrl('https://nickshenqwq.github.io')"</span>&gt;Open a new window.&lt;/a&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p>采用nodevalue的firstChild属性可以获取一段元素中的文字部分，实现替换效果；</p><h3 id="Javascript："><a href="#Javascript：" class="headerlink" title="Javascript："></a>Javascript：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> changePic(pic) &#123;</span><br><span class="line">    var changedImage = document.getElementById(<span class="string">"image5"</span>);</span><br><span class="line">    var href = pic.getAttribute(<span class="string">"href"</span>);</span><br><span class="line">    changedImage.setAttribute(<span class="string">"src"</span>, href);</span><br><span class="line"></span><br><span class="line">    var title = pic.getAttribute(<span class="string">"title"</span>);</span><br><span class="line">    var changedText = document.getElementById(<span class="string">"changedText"</span>);</span><br><span class="line">    changedText.firstChild.nodeValue = title;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> openUrl(open) &#123;</span><br><span class="line">    window.open(open, <span class="string">"popup"</span>, <span class="string">"width=320, height=480"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>最后使用window.open方法，href=”javascript:”的方法如遇到用户禁用Javascript则失效。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=<span class="string">"http://nickshenqwq.github.io/"</span> onclick=<span class="string">"openUrl(this.href); return: false;"</span> &gt;Open a new window.&lt;/a&gt;</span><br></pre></td></tr></table></figure><p>如上使用this.href则可解决</p><h3 id="以上代码中javascipt并未分离出html"><a href="#以上代码中javascipt并未分离出html" class="headerlink" title="以上代码中javascipt并未分离出html"></a>以上代码中javascipt并未分离出html</h3><p>接下来进行改进，ul中添加id:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;ul id=<span class="string">"imagegallery"</span>&gt;&lt;/ul&gt;</span><br></pre></td></tr></table></figure></p><p>Js添加onclik 事件函数:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span></span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt; 正在看的 &lt;a href=&quot;http://vdisk.weibo.com/s/DtMaH17QyhoV&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JavaScript + DOM 编程艺术&lt;/a&gt;, 采用getElementsById(), getA
       
     
     </summary>
