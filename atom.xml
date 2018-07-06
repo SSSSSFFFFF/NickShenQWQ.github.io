@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/NickShenQWQ/"/>
-  <updated>2018-07-06T09:42:39.623Z</updated>
+  <updated>2018-07-06T09:55:17.305Z</updated>
   <id>https://github.com/NickShenQWQ/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>居中详解</title>
+    <link href="https://github.com/NickShenQWQ/2018/07/06/imgtest%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>https://github.com/NickShenQWQ/2018/07/06/imgtest - 副本 (2)/</id>
+    <published>2018-07-06T09:53:47.862Z</published>
+    <updated>2018-07-06T09:55:17.305Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://ife.baidu.com/note/detail/id/1549" target="_blank" rel="noopener">居中详解</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;http://ife.baidu.com/note/detail/id/1549&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;居中详解&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="css" scheme="https://github.com/NickShenQWQ/categories/css/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>设计稿还原练习</title>
@@ -41,8 +65,8 @@
   
   <entry>
     <title>布局方法Float、Position或者Flexbox</title>
-    <link href="https://github.com/NickShenQWQ/2018/07/06/imgtest%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>https://github.com/NickShenQWQ/2018/07/06/imgtest - 副本/</id>
+    <link href="https://github.com/NickShenQWQ/2018/07/06/%E5%B8%83%E5%B1%80%E6%96%B9%E6%B3%95Float%E3%80%81Position%E6%88%96%E8%80%85Flexbox/"/>
+    <id>https://github.com/NickShenQWQ/2018/07/06/布局方法Float、Position或者Flexbox/</id>
     <published>2018-07-06T07:42:50.253Z</published>
     <updated>2018-07-06T08:57:35.152Z</updated>
     
@@ -456,31 +480,6 @@
     </summary>
     
       <category term="Javascript" scheme="https://github.com/NickShenQWQ/categories/Javascript/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>A test 测试</title>
-    <link href="https://github.com/NickShenQWQ/2018/05/31/test/"/>
-    <id>https://github.com/NickShenQWQ/2018/05/31/test/</id>
-    <published>2018-05-31T02:21:04.109Z</published>
-    <updated>2018-07-05T08:15:33.282Z</updated>
-    
-    <content type="html"><![CDATA[<p>A test 测试</p><p>博客搭建基本完成,</p><p>2018.5.31参考:<br><a href="https://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">https://www.jianshu.com/p/189fd945f38f</a><br><a href="https://www.cnblogs.com/SkyMark/p/9093083.html" target="_blank" rel="noopener">https://www.cnblogs.com/SkyMark/p/9093083.html</a><br>模板的内的readme</p><p>发布使用git bash :<br>$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>此文起开始我的第一篇，希望能坚持下去。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;A test 测试&lt;/p&gt;
-&lt;p&gt;博客搭建基本完成,&lt;/p&gt;
-&lt;p&gt;2018.5.31参考:&lt;br&gt;&lt;a href=&quot;https://www.jianshu.com/p/189fd945f38f&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https:/
-      
-    
-    </summary>
-    
-      <category term="笔记" scheme="https://github.com/NickShenQWQ/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
