@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/NickShenQWQ/"/>
-  <updated>2018-07-06T06:51:38.388Z</updated>
+  <updated>2018-07-06T07:06:20.656Z</updated>
   <id>https://github.com/NickShenQWQ/</id>
   
   <author>
@@ -18,45 +18,19 @@
   
   <entry>
     <title>更换电脑部署hexo博客方式</title>
-    <link href="https://github.com/NickShenQWQ/2018/07/06/imgtest2/"/>
-    <id>https://github.com/NickShenQWQ/2018/07/06/imgtest2/</id>
-    <published>2018-07-06T06:42:08.990Z</published>
-    <updated>2018-07-06T06:51:38.388Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.Github 添加 SSH Keys</p><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><p>???</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;1.Github 添加 SSH Keys&lt;/p&gt;
-&lt;p&gt;首先在本地创建 SSH Keys:&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://github.com/NickShenQWQ/categories/hexo/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>更换电脑部署hexo博客方式</title>
     <link href="https://github.com/NickShenQWQ/2018/07/05/imgtest/"/>
     <id>https://github.com/NickShenQWQ/2018/07/05/imgtest/</id>
     <published>2018-07-05T08:38:27.569Z</published>
-    <updated>2018-07-06T07:02:11.522Z</updated>
+    <updated>2018-07-06T07:06:20.656Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="一、安装必要软件"><a href="#一、安装必要软件" class="headerlink" title="一、安装必要软件"></a>一、安装必要软件</h3><p>安装 Git 客户端</p><p>安装 node JS</p><h3 id="二、Github-添加-SSH-Keys"><a href="#二、Github-添加-SSH-Keys" class="headerlink" title="二、Github 添加 SSH Keys"></a>二、Github 添加 SSH Keys</h3><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><img src="/2018/07/05/imgtest/5.png" title="这是一个新的博客的图片的说明"><h3 id="三、源文件拷贝"><a href="#三、源文件拷贝" class="headerlink" title="三、源文件拷贝"></a>三、源文件拷贝</h3><p>拷贝hexo也就是blog文件夹</p><h3 id="四、安装-hexo"><a href="#四、安装-hexo" class="headerlink" title="四、安装 hexo"></a>四、安装 hexo</h3><p>在 cmd 下输入下面指令安装 hexo：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><h3 id="五、进入-F-Blog-目录（你拷贝到新电脑的目录），输入下面指令安装相关模块"><a href="#五、进入-F-Blog-目录（你拷贝到新电脑的目录），输入下面指令安装相关模块" class="headerlink" title="五、进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块"></a>五、进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块</h3><p>npm install<br>npm install hexo-deployer-git –save  // 文章部署到 git 的模块<br>（下面为选择安装）<br>npm install hexo-generator-feed –save  // 建立 RSS 订阅<br>npm install hexo-generator-sitemap –save // 建立站点地图</p><h3 id="六、部署发布文章"><a href="#六、部署发布文章" class="headerlink" title="六、部署发布文章"></a>六、部署发布文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><h3 id="七、添加图片方法"><a href="#七、添加图片方法" class="headerlink" title="七、添加图片方法"></a>七、添加图片方法</h3><p>修改_config.yml配置文件post_asset_folder项为true。</p><p>安装插件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure></p><p>使用命令创建新博客：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new imgtest</span><br></pre></td></tr></table></figure></p><p>引用图片方法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img 图片.jpg 图片的说明 %&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="一、安装必要软件"><a href="#一、安装必要软件" class="headerlink" title="一、安装必要软件"></a>一、安装必要软件</h3><p>安装 Git 客户端<br>安装 node JS</p><h3 id="二、Github-添加-SSH-Keys"><a href="#二、Github-添加-SSH-Keys" class="headerlink" title="二、Github 添加 SSH Keys"></a>二、Github 添加 SSH Keys</h3><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090@qq.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><img src="/2018/07/05/imgtest/5.png" title="这是一个新的博客的图片的说明"><h3 id="三、源文件拷贝"><a href="#三、源文件拷贝" class="headerlink" title="三、源文件拷贝"></a>三、源文件拷贝</h3><p>拷贝hexo也就是blog文件夹</p><h3 id="四、安装-hexo"><a href="#四、安装-hexo" class="headerlink" title="四、安装 hexo"></a>四、安装 hexo</h3><p>在 cmd 下输入下面指令安装 hexo：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><h3 id="五、进入-F-Blog-目录（你拷贝到新电脑的目录），输入下面指令安装相关模块"><a href="#五、进入-F-Blog-目录（你拷贝到新电脑的目录），输入下面指令安装相关模块" class="headerlink" title="五、进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块"></a>五、进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块</h3><p>npm install<br>npm install hexo-deployer-git –save  // 文章部署到 git 的模块<br>（下面为选择安装）<br>npm install hexo-generator-feed –save  // 建立 RSS 订阅<br>npm install hexo-generator-sitemap –save // 建立站点地图</p><h3 id="六、部署发布文章"><a href="#六、部署发布文章" class="headerlink" title="六、部署发布文章"></a>六、部署发布文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><h3 id="七、添加图片方法"><a href="#七、添加图片方法" class="headerlink" title="七、添加图片方法"></a>七、添加图片方法</h3><p>修改_config.yml配置文件post_asset_folder项为true。</p><p>安装插件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure></p><p>使用命令创建新博客：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new imgtest</span><br></pre></td></tr></table></figure></p><p>引用图片方法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img 图片.jpg 图片的说明 %&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;一、安装必要软件&quot;&gt;&lt;a href=&quot;#一、安装必要软件&quot; class=&quot;headerlink&quot; title=&quot;一、安装必要软件&quot;&gt;&lt;/a&gt;一、安装必要软件&lt;/h3&gt;&lt;p&gt;安装 Git 客户端&lt;/p&gt;
-&lt;p&gt;安装 node JS&lt;/p&gt;
-&lt;h3 id=&quot;二、Git
+        &lt;h3 id=&quot;一、安装必要软件&quot;&gt;&lt;a href=&quot;#一、安装必要软件&quot; class=&quot;headerlink&quot; title=&quot;一、安装必要软件&quot;&gt;&lt;/a&gt;一、安装必要软件&lt;/h3&gt;&lt;p&gt;安装 Git 客户端&lt;br&gt;安装 node JS&lt;/p&gt;
+&lt;h3 id=&quot;二、Github-
       
     
     </summary>
