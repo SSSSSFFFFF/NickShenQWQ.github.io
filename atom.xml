@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/NickShenQWQ/"/>
-  <updated>2018-06-26T08:56:51.177Z</updated>
+  <updated>2018-07-06T06:42:39.548Z</updated>
   <id>https://github.com/NickShenQWQ/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更换电脑部署hexo博客方式</title>
+    <link href="https://github.com/NickShenQWQ/2018/07/06/imgtest2/"/>
+    <id>https://github.com/NickShenQWQ/2018/07/06/imgtest2/</id>
+    <published>2018-07-06T06:42:08.990Z</published>
+    <updated>2018-07-06T06:42:39.548Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Github 添加 SSH Keys</p><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><p><img src="/NickShenQWQ/2018/07/06/imgtest2/5.png" alt="5"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.Github 添加 SSH Keys&lt;/p&gt;
+&lt;p&gt;首先在本地创建 SSH Keys:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://github.com/NickShenQWQ/categories/hexo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>更换电脑部署hexo博客方式</title>
+    <link href="https://github.com/NickShenQWQ/2018/07/05/imgtest/"/>
+    <id>https://github.com/NickShenQWQ/2018/07/05/imgtest/</id>
+    <published>2018-07-05T08:38:27.569Z</published>
+    <updated>2018-07-06T06:42:49.505Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Github 添加 SSH Keys</p><p>首先在本地创建 SSH Keys:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"1074260090.com"</span></span><br></pre></td></tr></table></figure><p>后面的邮箱即为 github 注册邮箱，也是你登录 Github 的邮箱，之后会要求确认路径和输入密码，一路回车就行。</p><p>成功的话会在 ~/下生成 .ssh文件夹，进去，打开 id_rsa.pub，复制里面的key即可。</p><p><img src="/NickShenQWQ/2018/07/05/imgtest/5.png" alt="5"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.Github 添加 SSH Keys&lt;/p&gt;
+&lt;p&gt;首先在本地创建 SSH Keys:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://github.com/NickShenQWQ/categories/hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>vue基础篇过滤器</title>
