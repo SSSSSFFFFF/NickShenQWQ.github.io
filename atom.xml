@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/NickShenQWQ/"/>
-  <updated>2018-07-06T08:57:35.152Z</updated>
+  <updated>2018-07-06T09:10:40.719Z</updated>
   <id>https://github.com/NickShenQWQ/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计稿还原联系</title>
+    <link href="https://github.com/NickShenQWQ/2018/07/06/shejigaohuanyuan/"/>
+    <id>https://github.com/NickShenQWQ/2018/07/06/shejigaohuanyuan/</id>
+    <published>2018-07-06T09:03:09.761Z</published>
+    <updated>2018-07-06T09:10:40.719Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考如下设计稿实现HTML页面及CSS样式："><a href="#参考如下设计稿实现HTML页面及CSS样式：" class="headerlink" title="参考如下设计稿实现HTML页面及CSS样式："></a>参考如下设计稿实现HTML页面及CSS样式：</h2><img src="/2018/07/06/shejigaohuanyuan/iferenwutu.png" title="shejigao"><h2 id="设计稿描述："><a href="#设计稿描述：" class="headerlink" title="设计稿描述："></a>设计稿描述：</h2><p>设计稿分为头部，中间的Banner，主导航，内容区域，底部<br>头部区域为100%宽的一个深色背景，头部中间有一块960px的定宽居中区域，里面包括了左边的Logo和右上角导航<br>Banner为100%宽的区块，中间右下方有banner轮显的当前图片数字的示例，其中正在显示的图片对应的数字有特殊样式（注意不需要实现轮显banner的业务逻辑，只是按照设计稿做静态样式）<br>主导航区域，有一个100%宽的灰色线条，线条之上，在中间960px区域是导航菜单，当前正在浏览页对应的菜单有特殊样式<br>主要内容区域，宽度为960px，里面每个内容都有至少80px的padding，每一个内容的宽度均为自适应，可以使用flex布局</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;参考如下设计稿实现HTML页面及CSS样式：&quot;&gt;&lt;a href=&quot;#参考如下设计稿实现HTML页面及CSS样式：&quot; class=&quot;headerlink&quot; title=&quot;参考如下设计稿实现HTML页面及CSS样式：&quot;&gt;&lt;/a&gt;参考如下设计稿实现HTML页面及CSS样
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://github.com/NickShenQWQ/categories/hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>布局方法Float、Position或者Flexbox</title>
@@ -458,27 +481,6 @@
     </summary>
     
       <category term="笔记" scheme="https://github.com/NickShenQWQ/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://github.com/NickShenQWQ/2018/05/30/hello-world/"/>
-    <id>https://github.com/NickShenQWQ/2018/05/30/hello-world/</id>
-    <published>2018-05-30T14:42:10.548Z</published>
-    <updated>2018-05-30T14:42:10.550Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
     
     
   </entry>
