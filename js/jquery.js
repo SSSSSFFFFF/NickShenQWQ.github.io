@@ -9529,6 +9529,7 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 		};
 	});
 });
+
 // Limit scope pollution from any deprecated API
 // (function() {
 
@@ -9553,3 +9554,4 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 }
 
 })( window );
+
