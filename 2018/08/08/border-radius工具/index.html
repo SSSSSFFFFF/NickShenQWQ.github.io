@@ -188,8 +188,78 @@ box-sizing: border-box;
 <pre><code>float: right;
 </code></pre><p>}</p>
 <p></style></p>
-<body><br><div id="container"><br>    <div class="group section"><br>        <div id="preview" class="col span_12"><br>            <div id="subject"><br>                <div id="top-left" class="radius-container" data-x="left" data-y="top"><br>                </div><br>                <div id="top-right" class="radius-container" data-x="right" data-y="top"><br>                </div><br>                <div id="bottom-right" class="radius-container" data-x="right" data-y="bottom"><br>                </div><br>                <div id="bottom-left" class="radius-container" data-x="left" data-y="bottom"><br>                </div><br><br>                <div id="radius-ui-sliders"><br>                    <div id="tlr" class="ui-input-slider" data-topic="top-left" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="tlw" class="ui-input-slider" data-topic="top-left-w" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="tlh" class="ui-input-slider" data-topic="top-left-h" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="trr" class="ui-input-slider" data-topic="top-right" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="trw" class="ui-input-slider" data-topic="top-right-w" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="trh" class="ui-input-slider" data-topic="top-right-h" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="brr" class="ui-input-slider" data-topic="bottom-right" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="brw" class="ui-input-slider" data-topic="bottom-right-w" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="brh" class="ui-input-slider" data-topic="bottom-right-h" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="blr" class="ui-input-slider" data-topic="bottom-left" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="blw" class="ui-input-slider" data-topic="bottom-left-w" data-unit=" px" data-sensivity="2"></div><br><br>                    <div id="blh" class="ui-input-slider" data-topic="bottom-left-h" data-unit=" px" data-sensivity="2"></div><br>                </div><br>            </div><br>        </div><br>    </div><br>    <div id="controls" class="group section"><br><br>        <div class="group section"><br>            <div id="dimensions"><br>                <div class="ui-input-slider" data-topic="width" data-info="width" data-unit=" px" data-min="150" data-max="700" data-sensivity="1"></div><br><br>                <div class="ui-input-slider" data-topic="height" data-info="height" data-unit=" px" data-min="75" data-max="350" data-sensivity="1"></div><br>            </div><br><br>            <div id="output"></div><br>        </div><br><br>        <div class="group section"><br>            <div id="radius-lock"><br>                <div class="info"> rounded corner </div><br>                <div class="ui-checkbox" data-topic="top-left"></div><br>                <div class="ui-checkbox" data-topic="top-right"></div><br>                <div class="ui-checkbox" data-topic="bottom-right"></div><br>                <div class="ui-checkbox" data-topic="bottom-left"></div><br>            </div><br><br>            <div id="unit-selection"><br>                <div class="info"> select border units </div><br>            </div><br>        </div><br><br>    </div><br></div><br><br></body>
+<div id="container"><br>    <div class="group section"><br>        <div id="preview" class="col span_12"><br>            <div id="subject"><br>                <div id="top-left" class="radius-container" data-x="left" data-y="top"><br>                </div><br>                <div id="top-right" class="radius-container" data-x="right" data-y="top"><br>                </div><br>                <div id="bottom-right" class="radius-container" data-x="right" data-y="bottom"><br>                </div><br>                <div id="bottom-left" class="radius-container" data-x="left" data-y="bottom"><br>                </div>
 
+<pre><code>            &lt;div id=&quot;radius-ui-sliders&quot;&gt;
+                &lt;div id=&quot;tlr&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;top-left&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;tlw&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;top-left-w&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;tlh&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;top-left-h&quot;
+                    data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;trr&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;top-right&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;trw&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;top-right-w&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;trh&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;top-right-h&quot;
+                    data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;brr&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;bottom-right&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;brw&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;bottom-right-w&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;brh&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;bottom-right-h&quot;
+                    data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;blr&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;bottom-left&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;blw&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;bottom-left-w&quot;
+                     data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+
+                &lt;div id=&quot;blh&quot; class=&quot;ui-input-slider&quot; data-topic=&quot;bottom-left-h&quot;
+                    data-unit=&quot; px&quot; data-sensivity=&quot;2&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;controls&quot; class=&quot;group section&quot;&gt;
+
+    &lt;div class=&quot;group section&quot;&gt;
+        &lt;div id=&quot;dimensions&quot;&gt;
+            &lt;div class=&quot;ui-input-slider&quot; data-topic=&quot;width&quot; data-info=&quot;width&quot;
+                 data-unit=&quot; px&quot; data-min=&quot;150&quot; data-max=&quot;700&quot; data-sensivity=&quot;1&quot;&gt;&lt;/div&gt;
+
+            &lt;div class=&quot;ui-input-slider&quot; data-topic=&quot;height&quot; data-info=&quot;height&quot;
+                data-unit=&quot; px&quot; data-min=&quot;75&quot; data-max=&quot;350&quot; data-sensivity=&quot;1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div id=&quot;output&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;group section&quot;&gt;
+        &lt;div id=&quot;radius-lock&quot;&gt;
+            &lt;div class=&quot;info&quot;&gt; rounded corner &lt;/div&gt;
+            &lt;div class=&quot;ui-checkbox&quot; data-topic=&apos;top-left&apos;&gt;&lt;/div&gt;
+            &lt;div class=&quot;ui-checkbox&quot; data-topic=&apos;top-right&apos;&gt;&lt;/div&gt;
+            &lt;div class=&quot;ui-checkbox&quot; data-topic=&apos;bottom-right&apos;&gt;&lt;/div&gt;
+            &lt;div class=&quot;ui-checkbox&quot; data-topic=&apos;bottom-left&apos;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div id=&quot;unit-selection&quot;&gt;
+            &lt;div class=&quot;info&quot;&gt; select border units &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre><p></p></div><p></p>
 <script>
 'use strict';
 
@@ -967,4 +1037,4 @@ var BorderRadius = (function BorderRadius() {
 
 
 
-</script></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2018-08-08</span><i class="fa fa-tag"></i><a class="tag" href="/categories/javascript/" title="javascript">javascript </a></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" href="http://twitter.com/home?status=,https://github.com/NickShenQWQ/2018/08/08/border-radius工具/,Nick Shen's Blog,border-radius工具,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2018/08/07/邮件提示/" title="输入框邮件提示">下一篇</a></li></ul></div></div></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script></body></html>
+</script></div></div></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2018-08-08</span><i class="fa fa-tag"></i><a class="tag" href="/categories/javascript/" title="javascript">javascript </a></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" href="http://twitter.com/home?status=,https://github.com/NickShenQWQ/2018/08/08/border-radius工具/,Nick Shen's Blog,border-radius工具,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2018/08/07/邮件提示/" title="输入框邮件提示">下一篇</a></li></ul></div></div></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script></body></html>
